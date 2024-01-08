@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amino - Organic & Multipurpose</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/myaccount.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+</head>
+
+<body>
+    <header>
+        <nav class="alert-offer d-none d-lg-block">
+            <div class="alert text-white d-flex justify-content-between align-items-center">
+                <div class="row alert-row flex-lg-grow-1 ms-5">
+                    <div class="col-10">
+                        <p class="pt-3 ms-lg-5 para1">Additional
+                            <span style="color:red;">20% OFF</span>
+                            Sales Items - Please See Details
+                        </p>
+                    </div>
+                </div>
+                <select class="form-select" aria-label="Default select example">
+                    <option value="1">English</option>
+                    <option value="2">Hindi</option>
+                    <option value="3">Spanish</option>
+                </select>
+                <select class="form-select" id="select-lang">
+                    <option value="1">Dollar$</option>
+                    <option value="2">Euro€</option>
+                    <option value="3">Rupees₹</option>
+                </select>
+                
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="img-fluid mb-2" src="../images/home/logo.png" alt=""></a>
+                <button class="navbar-toggler toggle-btn" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#navbarSupportedContent">
+                    <i class="fa fa-bars" style="font-size: 30px;"></i>
+                </button>
+                <div class="collapse navbar-collapse offcanvas offcanvas-start" tabindex="-1" data-bs-scroll="true"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-ul navbar-nav-scroll">
+                        <!--                    Home                                               -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                Home <i class="fa fa-angle-down ms-2" id="down-arrow"></i>
+                                <span class="material-symbols-outlined" id="plus-mobile">
+                                    add
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu home" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-muted" href="home.html">Home 01</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Home 02</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Home 03</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Home 04</a></li>
+                            </ul>
+                        </li>
+                        <!--                    Shop                                               -->
+                        <li class="nav-item dropdown shop ms-lg-4">
+                            <a class="nav-link dropdown-toggle" href="#" role="button">Shop<i
+                                    class="fa fa-angle-down ms-2" id="down-arrow"></i>
+                                <span class="material-symbols-outlined" id="plus-mobile">
+                                    add
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu shop-dropdown" aria-labelledby="navbarDropdown">
+                                <div class="row mb-lg-4">
+                                    <div class="col-3">
+                                        <ul>
+                                            <li><a class="dropdown-item mt-lg-3  fw-bold" id="shop-static" href="#">SHOP
+                                                    GRID</a></li>
+                                            <li class="dropdown-item">
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Grid 3 Column</a></li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Grid 4 Column</a></li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Grid Left Sidebar</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Grid Right Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <ul>
+                                            <li><a class="dropdown-item mt-lg-3 fw-bold" id="shop-static" href="#">SHOP
+                                                    LIST</a></li>
+                                            <li class="dropdown-item">
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop List</a></li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop List Left Sidebar</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop List Right Sidebar</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <ul>
+                                            <li><a class="dropdown-item mt-lg-3 fw-bold" id="shop-static" href="#">SHOP
+                                                    SINGLE</a></li>
+                                            <li class="dropdown-item">
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="shopsingle.html">Shop
+                                                    Single</a></li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Single Affiliate</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Single Gallery</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Single Group</a></li>
+                                            <li><a class="dropdown-item text-muted" href="#">Shop Single Sticky</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3">
+                                        <ul>
+                                            <li><a class="dropdown-item mt-lg-3 fw-bold" id="shop-static"
+                                                    href="#">Page</a></li>
+                                            <li class="dropdown-item">
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="aboutus.html">About Us</a>
+                                            </li>
+                                            <li><a class="dropdown-item text-muted" href="#">Cart</a></li>
+                                            <li><a class="dropdown-item text-muted" href="#">WhishList</a></li>
+                                            <li><a class="dropdown-item text-muted" href="#">Checkout</a></li>
+                                            <li><a class="dropdown-item text-muted" href="myaccount.html">My Account</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row ms-3">
+                                    <div class="col-10 col-lg-6">
+                                        <div class="box box1">
+                                            <a href="#"><img class="img-fluid ms-lg-5 mb-2 shop-img"
+                                                    src="../images/home/banner-menu-01.jpg" alt=""></a>
+                                            <div class="img-cover ms-lg-5 mb-2"></div>
+                                            <div class="img-cover1 ms-lg-5 mb-2"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-10 col-lg-6">
+                                        <div class="box box1">
+                                            <a href="#"><img class="img-fluid ms-lg-5 mb-2 shop-img"
+                                                    src="../images/home/banner-menu-02.jpg" alt=""></a>
+                                            <div class="img-cover ms-lg-5 mb-2"></div>
+                                            <div class="img-cover1 ms-lg-5 mb-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <!--                    Page                                               -->
+                        <li class="nav-item dropdown ms-lg-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button">
+                                Page <i class="fa fa-angle-down ms-lg-2" id="down-arrow"></i>
+                                <span class="material-symbols-outlined" id="plus-mobile">
+                                    add
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu about" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item text-muted" href="aboutus.html">About Us</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Cart</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Compare</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Whishlist</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Empty Cart</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Checkout</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="myaccount.html">My Account</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Login</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-muted" href="#">Register</a></li>
+                            </ul>
+                        </li>
+                        <!--                    Blog                                               -->
+                        <li class="nav-item dropdown blog ms-lg-4">
+                            <a class="nav-link dropdown-toggle" href="#" id="Dropdown-Courses" role="button">
+                                Blog <i class="fa fa-angle-down ms-2" id="down-arrow"></i>
+                                <span class="material-symbols-outlined" id="plus-mobile">
+                                    add
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu blog-text-muted">
+                                <li class="nav-item dropend w-100">
+                                    <div class="blog-grid">
+                                        <a class="nav-link d-inline-block" href="#" role="button">
+                                            Blog Grid
+                                        </a>
+                                        <span class="material-symbols-outlined d-inline-block text-muted"
+                                            id="forward-arrow">
+                                            arrow_forward_ios
+                                        </span>
+                                    </div>
+                                    <ul class="dropdown-menu dropdown-submenu ">
+                                        <li><a class=" nav-link dropdown-item" href="bloggrid.html">Blog Grid</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class=" nav-link dropdown-item" href="#">Blog Grid Left Sidebar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="nav-link dropdown-item" href="#">Blog Grid Right Sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item dropend w-100">
+                                    <div class="blog-grid">
+                                        <a class="nav-link d-inline-block" href="#" role="button">
+                                            Blog List
+                                        </a>
+                                        <span class="material-symbols-outlined d-inline-block text-muted"
+                                            id="forward-arrow">
+                                            arrow_forward_ios
+                                        </span>
+                                    </div>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li><a class="nav-link dropdown-item" href="#">Blog List Left Sidebar</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="nav-link dropdown-item" href="#">Blog List Right Sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li class="nav-item dropend w-100">
+                                    <div class="blog-grid">
+                                        <a class="nav-link d-inline-block" href="#" role="button">
+                                            Blog Details
+                                        </a>
+                                        <span class="material-symbols-outlined d-inline-block text-muted"
+                                            id="forward-arrow">
+                                            arrow_forward_ios
+                                        </span>
+                                    </div>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li><a class=" nav-link dropdown-item" href="#">Blog Details Left Sidebar</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="nav-link dropdown-item" href="#">Blog Details Right
+                                                Sidebar<iconify-icon icon="ion:shuffle"></iconify-icon>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--                    Contact                                              -->
+                        <li class="nav-item ms-lg-4">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--                    Right Section                                              -->
+                <div class="row mt-2 mb-2 float-right right">
+                    <div class="col account button-group dropstart">
+                        <img src="../images/home/account.png" alt="" class="img-fluid dropdown-toggle mt-1"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <a href="myaccount.html">
+                                <li class="dropdown-item text-muted">MyAccount</li>
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#">
+                                <li class="dropdown-item text-muted">Checkout</li>
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#">
+                                <li class="dropdown-item text-muted">Signin</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col btn-group dropstart search me-lg-3">
+                        <span class="material-symbols-outlined dropdown-toggle mt-1" data-bs-toggle="dropdown"
+                            style="font-weight: 700;">
+                            search
+                        </span>
+                        <ul class="dropdown-menu me-4">
+                            <li class="dropdown-item">
+                                <form>
+                                    <input class="form-control " type="search"
+                                        placeholder="Enter your search key..." aria-label="Search">
+                                    <button class="btn" type="submit"><i class="fa fa-search"
+                                            style="font-size:24px">
+                                        </i>
+                                    </button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col shuffle me-lg-3">
+                        <button class="position-relative badge-btn ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="32"
+                                    d="m400 304l48 48l-48 48m0-288l48 48l-48 48M64 352h85.19a80 80 0 0 0 66.56-35.62L256 256" />
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="32"
+                                    d="M64 160h85.19a80 80 0 0 1 66.56 35.62l80.5 120.76A80 80 0 0 0 362.81 352H416m0-192h-53.19a80 80 0 0 0-66.56 35.62L288 208" />
+                            </svg>
+                            <span class="position-absolute top-100 start translate-middle badge rounded-pill bg-danger">
+                                3
+                            </span>
+                        </button>
+                    </div>
+                    <div class="col heart me-lg-3">
+                        <button class="position-relative badge-btn" style="font-weight: 700;">
+                            <img src="../images/home/heart.png" alt="" class="img-fluid">
+                            <span class="position-absolute top-100 start translate-middle badge rounded-pill bg-danger">
+                                3
+                            </span>
+                        </button>
+                    </div>
+                    <div class="col-7 col-lg shopping-bag me-lg-3">
+                        <div class="btn-group dropstart">
+                            <button class="position-relative badge-btn dropdown-toggle" data-bs-toggle="dropdown"
+                                style="font-weight: 700;">
+                                <img src="../images/home/shopping-bag.png" alt="" class="img-fluid h-100">
+                                <span
+                                    class="position-absolute top-100 start translate-middle badge rounded-pill bg-danger">
+                                    3
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <div class="drop-alert">
+                                    <li class="dropdown-item">
+                                        <div class="alert alert-dismissible fade show" role="alert">
+                                            <div class="row right-alert">
+                                                <div class="col-5 col-quantity">
+                                                    <img src="../images/home/cart-1.jpg" alt="" class="img-fluid h-50">
+                                                    <div class="box2 text-center"
+                                                        style="background-color: #83BC2E;width:28px;height: 28px;color:white; border-radius: 50%;">
+                                                        1x
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="mt-4 text-dark">Madden By New Madden</p>
+                                                    <p class="text-dark">$19.19</p>
+                                                    <p class="text-muted">Color:White</p>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close"></button>
+                                        </div>
+                                    </li>
+                                    <hr class="dropdown-divider">
+                                    <li class="dropdown-item w-100">
+                                        <div class="alert alert-dismissible fade show" role="alert">
+                                            <div class="row right-alert">
+                                                <div class="col-5 col-quantity">
+                                                    <img src="../images/home/cart-2.jpg" alt="" class="img-fluid h-50">
+                                                    <div class="box2 text-center"
+                                                        style="background-color: #83BC2E;width:28px;height:28px; color:white;border-radius: 50%;">
+                                                        1x
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="mt-4 text-dark">Madden By New Madden</p>
+                                                    <p class="text-dark">$19.19</p>
+                                                    <p class="text-muted">Color:White</p>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close"></button>
+                                        </div>
+                                    </li>
+                                    <hr class="dropdown-divider">
+                                    <li class="dropdown-item w-100">
+                                        <div class="alert alert-dismissible fade show" role="alert">
+                                            <div class="row right-alert">
+                                                <div class="col-5 col-quantity">
+                                                    <img src="../images/home/cart-3.jpg" alt="" class="img-fluid h-50">
+                                                    <div class="box2 text-center"
+                                                        style="background-color: #83BC2E; color:white;width:28px;height: 28px; border-radius: 50%;">
+                                                        1x
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <p class="mt-4 text-dark">Madden By New Madden</p>
+                                                    <p class="text-dark">$19.19</p>
+                                                    <p class="text-muted">Color:White</p>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                aria-label="Close"></button>
+                                        </div>
+                                    </li>
+                                </div>
+                                <hr class="dropdown-divider">
+                                <li class="dropdown-item">
+                                    <div class="row text-center">
+                                        <div class="col text-center" style="font-weight: 600;">
+                                            <p class="text-muted">SUBTOTAL</p>
+                                            <p class="text-muted">SHIPPING</p>
+                                            <p class="text-muted">TAXES</p>
+                                            <p>TOTAL</p>
+                                        </div>
+                                        <div class="col text-center" style="font-weight: 600;">
+                                            <p class="text-muted">$42.70</p>
+                                            <p class="text-muted">$7.00</p>
+                                            <p class="text-muted">$0.00</p>
+                                            <p>$49.50</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dropdown-item"><button class="w-75 checkout-1">Checkout</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col setting button-group dropstart">
+                        <img src="../images/home/setting.png" alt="" class="img-fluid dropdown-toggle mt-1"
+                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li class="dropdown-item">
+                                <select class="form-select w-100" aria-label="Default select example">
+                                    <option value="1">English</option>
+                                    <option value="2">Hindi</option>
+                                    <option value="3">Spanish</option>
+                                </select>
+                            </li>
+                            <hr class="dropdown-divider">
+                            <li class="dropdown-item">
+                                <select class="form-select w-100" aria-label="Default select example">
+                                    <option value="1">Dollar$</option>
+                                    <option value="2">Euro€</option>
+                                    <option value="3">Rupees₹</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <form class="tab-version">
+                <input class="form-control me-2 " type="search" placeholder="Enter your search key..."
+                    aria-label="Search">
+                <button class="btn" type="submit"><i class="fa fa-search" style="font-size:24px"></i></button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container-fluid">
+                <div class="bread-crumb">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center align-items-center">
+                          <li class="breadcrumb-item"><a href="home.html" id="breadcrumb-home">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">My Account</li>
+                        </ol>
+                    </nav>
+                </div>
+                
+            </div>
+        </section>
+        <div class="section2">
+            <div class="container pt-4">
+                <div class="row gx-5 mt-5">
+                    <div class="col-12 col-md-4 col-xl-3">
+                        <ul class="nav account-menu-list flex-column" role="tablist">
+                            <li>
+                                <a class="active" data-bs-toggle="pill" href="#pills-dashboard" aria-selected="true" role="tab"><i class="fa fa-tachometer me-2"></i> Dashboard</a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-order" aria-selected="false" tabindex="-1" role="tab"><i class="fa fa-shopping-cart me-2"></i> Order</a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-download" aria-selected="false" tabindex="-1" role="tab"><i class="fa fa-cloud-download me-2"></i> Download</a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-payment" aria-selected="false" tabindex="-1" role="tab"><i class="fa fa-credit-card me-2"></i> Payment Method</a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-address" aria-selected="false" tabindex="-1" role="tab"><i class="fa fa-map-marker me-2"></i> Address</a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="pill" href="#pills-account" aria-selected="false" tabindex="-1" role="tab"><i class="fa fa-user me-2"></i> Account Details</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-sign-out"></i> Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-8 col-xl-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-dashboard" role="tabpanel">
+                                <h4>Dashboard</h4>
+                                <p class="text-muted">Hello, Alex Tuntuni (If Not Tuntuni ! Logout )
+                                    From your account dashboard. you can easily check & view your recent orders,
+                                    manage your shipping and billing addresses and edit your password and account details.
+                                </p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-order" role="tabpanel">
+                                <h4>Orders</h4>
+                                <table class="table table-bordered">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col">Total</th>
+                                        <th scope="col">Action</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Moisturising Oil</td>
+                                        <td>Aug 22,2022</td>
+                                        <td>Pending</td>
+                                        <td>$10</td>
+                                        <td><a href="#">View</a></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>Katopeno Altuni</td>
+                                        <td>July 22,2022</td>
+                                        <td>Approved</td>
+                                        <td>$45</td>
+                                        <td><a href="#">View</a></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Murikhete Paris</td>
+                                        <td>June 22,2022</td>
+                                        <td>On Hold</td>
+                                        <td>$99</td>
+                                        <td><a href="#">View</a></td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="pills-download" role="tabpanel">
+                                <h4>Orders</h4>
+                                <table class="table table-bordered">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Expire</th>
+                                        <th scope="col">Download</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Moisturising Oil</td>
+                                        <td>Aug 22,2022</td>
+                                        <td>Yes</td>
+                                        <td style="cursor: pointer;">Download File</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Katopeno Altuni</td>
+                                        <td>July 22,2022</td>
+                                        <td>No</td>
+                                        <td style="cursor: pointer;">DownLoad File</td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane fade" id="pills-payment" role="tabpanel">
+                                <h4>Payment Method</h4>
+                                <p class="text-muted">You Can't Saved Your Payment Method yet.</p>
+                            </div>
+                            <div class="tab-pane fade" id="pills-address" role="tabpanel">
+                                <div class="row">
+                                    <div class="col">
+                                        <h4>Billing address</h4>
+                                        <p>Alex Tuntuni</p>
+                                        <p class="text-muted">1355 Market St, Suite 900
+                                            San Francisco, CA 94103
+                                        </p>
+                                        <p class="text-muted">Mobile: (123) 456-7890</p>
+                                        <button>
+                                            <span class="material-symbols-outlined">
+                                            edit_square
+                                            </span>
+                                            Edit Access
+                                        </button>
+                                    </div>
+                                    <div class="col">
+                                        <h4>Shipping address</h4>
+                                        <p>Alex Tuntuni</p>
+                                        <p class="text-muted">1355 Market St, Suite 900
+                                            San Francisco, CA 94103
+                                        </p>
+                                        <p class="text-muted">Mobile: (123) 456-7890</p>
+                                        <button>
+                                            <span class="material-symbols-outlined">
+                                            edit_square
+                                            </span>
+                                            Edit Access
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-account" role="tabpanel">
+                                <div class="row gx-5 gy-5">
+                                    <div class="col-md-12">
+                                        <div class="single-form">
+                                            <h5 class="title" style="color:black;font-weight: 500;">Account Details</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="single-form first-name">
+                                            <label class="form-label">First Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="single-form last-name">
+                                            <label class="form-label">Last Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="single-form">
+                                            <label class="form-label">Display Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="single-form">
+                                            <label class="form-label">Email address</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="single-form">
+                                            <h5 class="title" style="color:black;font-weight: 500;">Password change</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="single-form">
+                                            <label class="form-label">Current Password</label>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="single-form pass">
+                                            <label class="form-label">New Password</label>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="single-form c-pass">
+                                            <label class="form-label">Confirm Password</label>
+                                            <input type="password" class="form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="single-form">
+                                            <button class="btn">Save Change</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid pt-5 pb-5" style="background-color: #1d1d1d;">
+            <div class="container">
+                <div class="row row1 gx-2 gx-md-5 mt-5 justify-content-center">
+                    <div class="col-12 col-lg-3 justify-content-center align-items-center">
+                        <p class="h4 text-white text-center text-lg-start">LET'S KEEP IN TOUCH</p>
+                        <p class="text-white mt-4 text-center text-lg-start" style="font-size: 14px; color:#9D9D9D;">
+                            Sign up for our e-mail to get latest news.</p>
+                        <form class="footer-form mt-4 d-flex justify-content-center align-items-center">
+                            <input class="form-control me-2" type="search" placeholder="Your Email Address"
+                                style="border:1px solid white;background-color:transparent;">
+                            <button class="form-btn" type="submit">SIGN UP</button>
+                        </form>
+                    </div>
+                    <div class="col-3">
+                        <div class="row ms-md-5">
+                            <div class="col mt-5 mt-lg-0 ms-lg-5">
+                                <p class="h5 text-white ms-4">ABOUT US</p>
+                                <p class="ms-4 mt-4" style="font-size: 13px;color:#9D9D9D!important;">M-F 9am-5pm EST
+                                </p>
+                                <p class="text-start ms-4 mt-2" style="font-size: 13px;color:#9D9D9D!important;"><i
+                                        class="fa fa-map-marker me-2"></i>Fox Mountain Rd, South Fork, CO 81154, USA</p>
+                                <p class="text-start ms-4 mt-2" style="font-size: 13px;color:#9D9D9D!important;"
+                                    id="sm-font-change">
+                                    <i class="fa fa-phone me-1"></i>
+                                    +9712441224
+                                </p>
+                                <a href="#">
+                                    <p class="text-white text-start ms-4 mt-2"
+                                        style="font-size: 13px;color:#9D9D9D!important;" id="sm-font-change"><i
+                                            class="fa fa-envelope me-lg-1"></i>
+                                        sup@gmail.com
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 mt-5 mt-lg-0">
+                        <div class="row ms-2 ms-lg-0 me-5 me-lg-0 ms-lg-5 foot-anchor">
+                            <div class="col">
+                                <p class="h5 text-white ms-4">INFORMATION</p>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="ms-4 mt-4" style="font-size: 13px;">Legal Notice</p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="ms-4 mt-2" style="font-size: 13px;">About Us</p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D !important;">
+                                    <p class="text-start ms-4 mt-2" style="font-size: 13px;">Contact Us</p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="text-start ms-4 mt-2" style="font-size: 13px;">
+                                        Site Map
+                                    </p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="text-start ms-4 mt-2" style="font-size: 13px;">
+                                        Stores
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3  ms-3 ms-lg-0 mt-5 mt-lg-0">
+                        <div class="row foot-anchor">
+                            <div class="col">
+                                <p class="h5 text-white">CUSTOM LINKS</p>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="mt-4" style="font-size: 13px;">Price Drop</p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="mt-2" style="font-size: 13px;">New Products</p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D !important;">
+                                    <p class="mt-2" style="font-size: 13px;">Best Sales</p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="text-start mt-2" style="font-size: 13px;">
+                                        Login
+                                    </p>
+                                </a>
+                                <a href="#" style="color:#9D9D9D!important;">
+                                    <p class="text-start mt-2" style="font-size: 13px;">
+                                        MyAccount
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  foot-social">
+                    <div class="col-12 col-lg-3 d-flex social">
+                        <div class="box ms-5 ms-md-0 ms-lg-0">
+                            <a href="https://facebook.com"><i class="fa fa-facebook-f"></i></a>
+                        </div>
+                        <div class="box ms-4">
+                            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div class="box ms-4">
+                            <a href="https://youtube.com"><i class="fa fa-youtube-play"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-4 ms-5 ms-lg-5 copyright">
+                        <p class="text-white ms-5 ms-lg-5 mt-lg-2" style="font-size: 12px;">Copyright 2021 © <span
+                            style="color: #83BC2E;">HasThemes</span> . All Rights Reserved
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-4 ms-5 ms-lg-0  payment">
+                        <img src="../images/home/payment.png" alt="" class="img-fluid ms-5 ms-md-0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
